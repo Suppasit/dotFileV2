@@ -1,0 +1,20 @@
+# nvr alias
+alias nvs='NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim'
+alias nvm='nvr --remote'
+
+### Handle TTB Proxy for tailscale
+alias remot-proxy="export http_proxy=socks5h://localhost:9090;export https_proxy=socks5h://localhost:9090"
+alias remot-unset-proxy="unset http_proxy;unset https_proxy"
+
+### General Support
+alias ls='eza --icons --group-directories-first'
+#alias pu='pod update --verbose && open "$@"'
+alias pu='bundle exec pod update --verbose && xed "$@"'
+alias bpi='bundle exec pod install'
+
+### Remove
+alias dlds='find . -name ".DS_Store" -type f -delete'
+
+### Git
+alias gcb='git branch --show-current | pbcopy'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
