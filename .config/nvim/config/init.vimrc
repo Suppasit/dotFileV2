@@ -76,4 +76,7 @@ Plug 'ludovicchabant/vim-gutentags'
 " Quick switching between source/header
 Plug 'derekwyatt/vim-fswitch'
 
+" Add support for ruby related files (Podfile, podspec, etc)
+Plug 'vim-ruby/vim-ruby'
+
 call plug#end()

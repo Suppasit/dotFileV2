@@ -11,7 +11,8 @@ filetype plugin indent on
 "set background=dark
 " colorscheme apprentice
 set termguicolors
-colorscheme base16-summerfruit-dark
+" colorscheme base16-summerfruit-dark
+colorscheme base16-horizon-terminal-dark
 
 " make background transparent
 "hi Normal ctermbg=NONE
